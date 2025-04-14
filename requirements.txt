@@ -1,0 +1,31 @@
+# Core Framework
+Django>=4.1,<4.2       # Django framework for building web applications
+
+# Database Adapter
+psycopg2-binary>=2.9   # PostgreSQL adapter for Python
+
+# REST API Framework (Optional)
+djangorestframework>=3.14   # Powerful and flexible toolkit for building Web APIs
+
+# Optional Microservice / Lightweight Endpoints Framework
+Flask>=2.1              # Lightweight framework for additional microservices if needed
+
+# Form Enhancements (Optional)
+django-crispy-forms>=1.14   # Provides a better rendering for Django forms, with support for Bootstrap
+
+# Image Processing (Optional)
+Pillow>=9.0             # Adds image processing capabilities (useful for handling user uploads)
+
+# PDF Generation (Optional)
+reportlab>=3.6          # Library for creating PDFs, useful for exporting reports or data
+
+# Environment Variable Management (Optional)
+python-decouple>=3.8    # Separates settings from code for better security and configuration management
+
+# Additional Utilities (Optional)
+django-extensions>=3.2  # Useful tools for the Django framework such as shell_plus, runserver_plus, etc.
+
+# Testing Libraries
+pytest>=7.0             # Testing framework for Python
+pytest-django>=4.5      # A Django plugin for pytest, enabling testing for Django projects
+coverage>=7.0           # Tool for measuring code coverage of your tests
